@@ -1,0 +1,12 @@
+path: "C:/PESU/CIE/archive"
+
+train: "C:/PESU/CIE/archive/bdd100k/bdd100k/images/100k/train"
+val: "C:/PESU/CIE/archive/bdd100k/bdd100k/images/100k/val"
+
+# Explicit label paths
+train_labels: "C:/PESU/CIE/archive/bdd100k/bdd100k/labels/10k/train"
+val_labels: "C:/PESU/CIE/archive/bdd100k/bdd100k/labels/10k/val"
+
+nc: 12
+names: ["car", "drivable area", "lane", "traffic sign", "traffic light", "person", 
+        "truck", "bus", "bike", "rider", "motor", "train"]
